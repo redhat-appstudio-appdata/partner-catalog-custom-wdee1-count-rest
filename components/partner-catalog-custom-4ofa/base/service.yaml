@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: partner-catalog-custom-4ofa
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: partner-catalog-custom-4ofa
+    app.kubernetes.io/part-of: partner-catalog-custom
+  name: partner-catalog-custom-4ofa
+spec:
+  ports:
+  - name: http-8081
+    port: 8081
+    protocol: TCP
+    targetPort: 8081
+  selector:
+    app: java-springboot-app
+    app.kubernetes.io/instance: partner-catalog-custom-4ofa
+status:
+  loadBalancer: {}
