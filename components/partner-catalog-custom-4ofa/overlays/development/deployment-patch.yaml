@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: partner-catalog-custom-4ofa
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
