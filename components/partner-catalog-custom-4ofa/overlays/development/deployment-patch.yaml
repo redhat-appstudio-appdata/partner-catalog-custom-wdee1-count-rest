@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/fduthill-tenant/partner-catalog-custom/partner-catalog-custom-4ofa@sha256:e24cfa97fa3a12797105953c62327e2f042b2a5ccb6f5219cccfbbe8e70372ed
+      - image: quay.io/redhat-user-workloads/fduthill-tenant/partner-catalog-custom/partner-catalog-custom-4ofa@sha256:2a4c2929d9b680255192b1cd37aa95c57c6629178c603f92c5bf62c64a74542f
         name: my-java-springboot
         resources: {}
 status: {}
